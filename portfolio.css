@@ -1,0 +1,102 @@
+@media (max-width: 600px) {
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+#welcome-section {
+  height: 50vh;
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#about-me {
+  padding: 20px;
+  background-color: #e6e6e6;
+}
+
+.project-tile {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 15px;
+}
+#navbar {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#navbar ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+#navbar li {
+  float: left;
+}
+
+.nav-link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.nav-link:hover {
+  background-color: #575757;
+}
+#skills {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+#skills h2 {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+#skills ul {
+  list-style: none;
+  text-align: center;
+}
+
+#skills li {
+  display: inline-block;
+  margin: 10px;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #333;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#skills li:hover {
+  background-color: #333;
+  color: #fff;
+}
+#projects{
+  padding: 20px;
+}
